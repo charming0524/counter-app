@@ -1,0 +1,20 @@
+/* index.css for Button */
+
+.buttonWrapper {
+  background: #6200ea;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(98, 0, 234, 0.3);
+}
+
+.buttonWrapper:hover {
+  background: #7c4dff;
+  box-shadow: 0 6px 18px rgba(124, 77, 255, 0.5);
+  transform: scale(1.05);
+}
